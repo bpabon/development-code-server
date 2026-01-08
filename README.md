@@ -29,11 +29,11 @@ PASSWORD=tu_contraseña_segura
 Esto detiene y elimina los contenedores, pero mantiene tu carpeta projects/.
 Si quieres eliminar volúmenes también, añade -v
 ```
-docker-compose -f ./docker-compose.yml down
+docker compose -f ./docker-compose.yml down
 ```
 Levantar contenedores
 ```
-docker-compose -f ./docker-compose.yml --env-file .env up -d --build
+docker compose -f ./docker-compose.yml --env-file .env up -d --build
 ```
 ## 💻 Uso del workspace
 Dentro de code-server puedes:
