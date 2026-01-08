@@ -5,8 +5,8 @@ services:
     restart: unless-stopped
     ports:
       - "8082:8080"  # Puerto 8082 para correr el servicio
-      - "4200:4200"  # Puerto 4201 para Angular aplicación 1
-      - "4201:4200"  # Puerto 4202 para Angular aplicación 2
+      - "4201:4200"  # Puerto 4201 para Angular aplicación 1
+      - "4202:4200"  # Puerto 4202 para Angular aplicación 2
       - "3002:3002"  # Puerto 3002 para Node.js aplicación 1
       - "3003:3003"  # Puerto 3003 para Node.js aplicación 2
       - "3004:3004"  # Puerto 3004 para Node.js aplicación 3
