@@ -8,7 +8,7 @@ services:
     environment:
       PASSWORD: ${PASSWORD}
     volumes:
-      - ./projects:/home/coder/project
+      - ./projects:/home/coder/projects
       - ./code-server-data:/home/coder/.local/share/code-server 
     command: --auth password /home/coder/projects
     tty: true
